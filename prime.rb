@@ -2,7 +2,6 @@ def prime?(n)
  if n <= 3
    return n > 1
   elsif n % 2 == 0 || n % 3 == 0
-    puts "False1"
     return false
   end
   
