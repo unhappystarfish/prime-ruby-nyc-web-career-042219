@@ -6,4 +6,7 @@ def prime?(n)
   end
   
   if (2...n).any? { |i| n % i  == 0}
+    return false
+  else
+    return true
 end
