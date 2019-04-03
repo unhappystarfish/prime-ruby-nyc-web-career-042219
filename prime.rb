@@ -5,7 +5,7 @@ def prime?(n)
     return false
   end
   
-  if (4...n).any? { |i| n % i  == 0}
+  if (4...n).any? { |i| n % i == 0}
     return false
   else
     return true
