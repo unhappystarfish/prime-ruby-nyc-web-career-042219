@@ -5,6 +5,5 @@ def prime?(n)
     return false
   end
   
-  my_array = (5..n).to_a
-  my_array.each { |integer| if n % integer == 0 || n % (n +2) == 0; return false else; return true end }
+  if (2...n).any? { |i| n % i  == 0}
 end
